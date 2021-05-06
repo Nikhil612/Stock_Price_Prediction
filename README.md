@@ -119,8 +119,18 @@ def buy_sell(data):
             PriceBuy.append(np.nan)
             PriceSell.append(np.nan)
   
-    return (PriceBuy, PriceSell)
-   
+    return (PriceBuy, PriceSell)  
+```
+### The Results are Plotted by below code
+  
+```
+plt.figure(figsize=(12.2,4.5)) #width = 12.2in, height = 4.5
+plt.scatter(data.index, data['Buy'], color = 'green', label='Buy', marker = '^', alpha = 1)
+plt.scatter(data.index, data['Sell'], color = 'red', label='Sell', marker = 'v', alpha = 1)
+plt.plot( data["Close"], alpha = 0.35)
+plt.title("Buy and Sell")
+plt.show()
+  
 ```
 
 ![image](https://user-images.githubusercontent.com/34812655/117249980-5b95bf80-adf7-11eb-9556-5c35f31a17e9.png)
