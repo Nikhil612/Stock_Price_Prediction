@@ -79,7 +79,7 @@ osc_box(splitdata(df_osb , 100),currentAxis)
 ![image](https://user-images.githubusercontent.com/34812655/117249752-fcd04600-adf6-11eb-890c-58e7a40dd525.png)
 
 
-# ** Determining the Buy-Sell of Stocks
+# **Determining the Buy-Sell of Stocks
 
 ### Function Used to define the buy-sell criteria
 
