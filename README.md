@@ -120,8 +120,10 @@ def buy_sell(data):
             PriceSell.append(np.nan)
   
     return (PriceBuy, PriceSell)
+   
 ```
 
-![image](https://user-images.githubusercontent.com/34812655/117249740-f6da6500-adf6-11eb-83cc-1d956a84dd7f.png)
+![image](https://user-images.githubusercontent.com/34812655/117249980-5b95bf80-adf7-11eb-9556-5c35f31a17e9.png)
+
 
 
